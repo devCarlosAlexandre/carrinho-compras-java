@@ -12,9 +12,8 @@ public class CarrinhoCompras {
     /**
      * Permite a adição de um novo item no carrinho de compras.
      *
-     * Caso o item já exista no carrinho, ou seja, já exista um item no carrinho referenciando esse mesmo produto,
-     * deverá seguir as seguintes duas regras:
-     * - Deverá ser alterada apenas a quantidade, sendo que o novo valor deverá ser a soma da quantidade
+     * Caso o item já exista no carrinho para este mesmo produto, as seguintes regras deverão ser seguidas:
+     * - Deverá ser alterada a quantidade, sendo que o novo valor deverá ser a soma da quantidade
      * atual e o valor da quantidade passada como parâmetro.
      * - Se o valor unitário informado for diferente do valor unitário atual do item, o novo valor unitário do item deverá ser
      * o passado como parâmetro.
@@ -42,7 +41,8 @@ public class CarrinhoCompras {
 
     /**
      * Permite a remoção do item de acordo com a posição.
-     * Essa posição deve ser determinada pela ordem de inclusão do produto na coleção.
+     * Essa posição deve ser determinada pela ordem de inclusão do produto na 
+     * coleção, em que zero representa o primeiro item.
      *
      * @param posicaoItem
      * @return Retorna um boolean, tendo o valor true caso o produto exista no carrinho de compras e false

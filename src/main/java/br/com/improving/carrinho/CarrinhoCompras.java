@@ -13,8 +13,7 @@ public class CarrinhoCompras {
      * Permite a adição de um novo item no carrinho de compras.
      *
      * Caso o item já exista no carrinho para este mesmo produto, as seguintes regras deverão ser seguidas:
-     * - Deverá ser alterada a quantidade, sendo que o novo valor deverá ser a soma da quantidade
-     * atual e o valor da quantidade passada como parâmetro.
+     * - A quantidade do item deverá ser a soma da quantidade atual com a quantidade passada como parâmetro.
      * - Se o valor unitário informado for diferente do valor unitário atual do item, o novo valor unitário do item deverá ser
      * o passado como parâmetro.
      *
@@ -65,7 +64,7 @@ public class CarrinhoCompras {
     /**
      * Retorna a lista de itens do carrinho de compras.
      *
-     * @return Collection<Itens>
+     * @return itens
      */
     public Collection<Item> getItens() {
 

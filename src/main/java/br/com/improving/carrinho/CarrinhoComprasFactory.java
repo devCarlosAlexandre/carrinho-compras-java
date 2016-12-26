@@ -8,9 +8,9 @@ import java.math.BigDecimal;
 public class CarrinhoComprasFactory {
 
     /**
-     * Cria um carrinho de compras para o cliente passado como parâmetro.
+     * Cria e retorna um novo carrinho de compras para o cliente passado como parâmetro.
      *
-     * Caso já existe um carrinho de compras para o cliente passado como parâmetro, esse carrinho deverá ser retornado.
+     * Caso já exista um carrinho de compras para o cliente passado como parâmetro, este carrinho deverá ser retornado.
      *
      * @param identificacaoCliente
      * @return CarrinhoCompras

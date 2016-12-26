@@ -23,17 +23,6 @@
                     <showDeprecation>true</showDeprecation>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.17</version>
-                <configuration>
-                    <argLine>-Xmx2g</argLine>
-                    <parallel>methods</parallel>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
-    <dependencies>
-    </dependencies>
 </project>

@@ -28,7 +28,7 @@ public class CarrinhoCompras {
     }
 
     /**
-     * Permite a remoção do carrinho de compras do produto passado como parâmetro.
+     * Permite a remoção do item que representa este produto do carrinho de compras.
      *
      * @param produto
      * @return Retorna um boolean, tendo o valor true caso o produto exista no carrinho de compras e false

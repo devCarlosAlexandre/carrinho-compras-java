@@ -19,8 +19,8 @@
                     <target>1.8</target>
                     <encoding>${project.build.sourceEncoding}</encoding>
                     <compilerArgument>-Xlint:all</compilerArgument>
-                    <fork>true</fork>
                     <showDeprecation>true</showDeprecation>
+
                 </configuration>
             </plugin>
         </plugins>

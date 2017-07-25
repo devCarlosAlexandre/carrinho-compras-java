@@ -1,6 +1,6 @@
 Nesta prova será necessário implementar os métodos das classes conforme descrições dos Javadocs correpondentes.
 
-Você poderá criar novos atributos e métodos, mas é proibido mudar a assinatura dos métodos e construtores já existentes, exceto o construtor da classe CarrinhoCompras.
+Você poderá criar novos atributos e métodos, mas é proibido mudar a assinatura dos métodos e construtores já existentes, exceto o construtor da classe CarrinhoCompras, bem como mover as classes de pacote.
 
 A prova deve ser resolvida utilizando obrigatoriamente Java 8. Não será necessário implementar nenhum tipo de interface gráfica ou mecanismo de persistência.
 

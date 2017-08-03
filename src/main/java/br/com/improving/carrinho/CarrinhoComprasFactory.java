@@ -7,6 +7,9 @@ import java.math.BigDecimal;
  */
 public class CarrinhoComprasFactory {
 
+	public CarrinhoComprasFactory() {
+	}
+
     /**
      * Cria e retorna um novo carrinho de compras para o cliente passado como parâmetro.
      *

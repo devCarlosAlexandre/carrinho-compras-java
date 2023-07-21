@@ -1,2 +1,7 @@
-package br.com.improving.utils;public class ItemInvalidoException {
+package br.com.improving.utils;
+
+public class ItemInvalidoException  extends  RuntimeException{
+	public ItemInvalidoException(String mensagem) {
+		super(mensagem);
+	}
 }
